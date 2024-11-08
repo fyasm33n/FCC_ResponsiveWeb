@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">Rate Farhana's Cooking</h1>
+    <p id="description">Help Farhana become the ultimate chef (or at  least make her famous for her Biryani)! <br>Your honest (but friendly) feedback is encouraged!
+    <p>
+    <div id="form"> 
+    <form id="survey-form">
+      <label for="name" id="name-label">Name </label>
+        <input type="text" id="name" placeholder="Name" required>
+      
+      <label for="email" id="email-label" >Email </label>
+        <input type="email" id="email" placeholder="Email" required>
+
+
+     <label for="number" id="number-label">If Farhana made biryani, how many plates could you eat in one sitting?</label>
+        <input type="number" id="number" placeholder="1, 2… or 100?" min="1" max="100"> 
+        
+
+        <legend id="topmargin">How does Farhana's cooking make you feel?</legend>
+            <label for="happy1">
+              <input id="happy1" type="checkbox" name="feel" value="happy1" class="inline"> Satisfied and happy!
+            </label>
+            <label for="happy2">
+            <input id="happy2" type="checkbox" name="feel" value="happy2" class="inline">Nostalgic - like a taste of home</label>
+            <label for="happy3">
+             <input id="happy3" type="checkbox" name="feel" value="happy3" class="inline"> Surprised - always something new to try
+            </label>
+            <label for="happy4">
+            <input id="happy4" type="checkbox" name="feel" value="happy4" class="inline"> Comforted - food for the soul
+            </label>
+            <label for="happy5">
+            <input id="happy5" type="checkbox" name="feel" value="happy5" class="inline"> Excited for the next meal!
+            </label>
+
+
+        <legend id="topmargin">How would you rate Farhana's cooking skills overall?</legend>
+        <label><input type="radio" name="cooking-skill" value="best" class="inline"> Chef-level</label>
+        <label><input type="radio" name="cooking-skill" value="good" class="inline"> Restaurant-worthy</label>
+        <label><input type="radio" name="cooking-skill" value="avg" class="inline"> Home-cooked goodness</label>
+        <label><input type="radio" name="cooking-skill" value="bad" class="inline"> Work in progress… but getting there!</label>
+
+        <label for="signature-dish">If Farhana had a signature dish, what should it be?
+          <select id="dropdown" name="signature-dish">
+            <option value="">(select one)</option>
+            <option value="biryani">Bottomless Biryani - one plate is never enough!</option>
+            <option value="tehari">Tehari Time Bomb - packed with flavors, not regrets</option>
+            <option value="kacchi">Kacchi Knockout - tender meat, tougher to stop eating</option>
+            <option value="curry">Curry in a Hurry - for the flavor-chasers</option>
+            <option value="mezbani-beef">Mighty Mezbani Beef - serious spice for serious eaters</option>
+            <option value="shrimp">Shrimply Irresistible - the ocean's finest on your plate</option>
+            <option value="grill-chicken">Grill Thrill Chicken - smoked to make you smile</option>
+            <option value="chicken-fry">Crispy Chicken Fry - because life needs crunch</option>
+            <option value="pudding">Pudding Perfection - the grand finale of sweetness</option>
+            <option value="shemai">Shemai Surprise - tastes like a family gathering</option>
+          </select>
+        </label>
+
+        <label for="recommend">Would you recommend Farhana's cooking to a friend?
+          <select id="recommend" name="recommend">
+            <option value="">(select one)</option>
+            <option value="1">Absolutely - they'll thank me later!</option>
+            <option value="2">Yes, but they might need a taste for spice!</option>
+            <option value="3">Only if they appreciate good food</option>
+            <option value="4">No way - I want it all to myself!</option>
+          </select>
+        </label>
+
+            <!-- <legend>What aspects of Farhana's cooking do you enjoy?</legend>
+            <label>
+              <input type="checkbox" name="cooking-aspects" value="presentation">
+              Presentation (Looks as good as it tastes!)
+            </label>
+
+            <label>
+              <input type="checkbox" name="cooking-aspects" value="flavor">
+              Flavor (A burst of spices)
+            </label>
+
+            <label>
+              <input type="checkbox" name="cooking-aspects" value="portion-size">
+              Portion size (I never leave hungry!)
+            </label> -->
+
+            <label>Any special requests or feedback?
+              <textarea id="bio" name="bio" rows="3" cols="30" placeholder="e.g., More dessert options for spicier dishes!"></textarea>
+            </label>
+            <input type="submit" id="submit" value="Submit">
+      
+    </form>
+    </div>
+  </body>
+
+  </html>
