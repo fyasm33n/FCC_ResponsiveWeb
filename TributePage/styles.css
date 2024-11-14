@@ -1,0 +1,142 @@
+#image{
+  width:70%;
+  max-width:100%;
+  border: 1px solid #201a02;
+  /* box-shadow: 0 0 1.5px 1.5px #201a02 */
+  
+}
+#img-div{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+    
+img{
+    display:block;
+}
+
+h1, h2{
+  width: 80%;
+  text-align: center;
+  margin: 1em auto;
+  padding: 20px;
+}
+body{
+  background-color: rgb(7, 3, 27);
+}
+
+h1, h2, p, figcaption{
+  font-family: 'Gill Sans', 'Gill Sans MT',' Calibri', 'Trebuchet MS', 'sans-serif';
+  color: aliceblue;
+}
+h2{
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+ul{
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+/* Style the Quote */
+#iconic-quote-main{
+    width:60%;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #f1c40f; 
+    font-style: italic;
+    margin: 1em auto;
+  }
+
+  #iconic-quote-main p{
+    color: #f1c40f;
+    margin:20px;
+    line-height: 1;
+    text-align: center;
+  } 
+
+#iconic-quote {
+    margin: 10px 40px;
+    padding: 10px;
+    border-left: 5px solid #f1c40f; 
+    display: inline-block;
+    font-style: italic;
+    font-size: 1em;
+    
+  }
+  
+  /* Additional styling for the quote text */
+  #iconic-quote p {
+    width:100%;
+    margin: 0 auto;
+    line-height: 0.8;
+    color: #f1c40f;
+    letter-spacing: 0.15px;
+    
+  }
+
+  li p{
+    font-size: 1.2em;
+  }
+
+  .bold{
+    font-weight:bold;
+  }
+  #tribute-info{
+    text-align: center;
+  }
+
+  figcaption{
+    padding: 2px;;
+  }
+  
+  .divider{
+    border-bottom: 1px solid #554608;
+    /* margin: 5px 0;
+    background-color: #f1c40f; */
+    width: 70%;
+    margin: 0 auto;;
+
+  }
+
+  a{
+    color:aliceblue;
+    text-decoration: none;
+  }
+
+ul li:last-child{
+    padding-bottom: 15px;
+  }
+
+#sub{
+  padding-top: 5px;
+}
+.gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+
+.last{
+  width: 30%;
+}
